@@ -227,9 +227,10 @@ Top 5 Softmax Probabilities For The Image Are :
 For the sixth image, the model is relatively sure that this is a Stop (probability of 27.895742 %), and that wa a correct prediction .
 
 Top 5 Softmax Probabilities For The Image Are :
-1st prediction is :Go straight or right - with percentage of :27.895742
-2st prediction is :Ahead only - with percentage of :16.477861
-3st prediction is :Keep right - with percentage of :11.800195
-4st prediction is :Roundabout mandatory - with percentage of :7.8315473
-5st prediction is :Beware of ice/snow - with percentage of :2.8452482
+
+| 1st prediction is :Go straight or right - with percentage of | 27.895742 |
+|2st prediction is :Ahead only - with percentage of | 16.477861 |
+|3st prediction is :Keep right - with percentage of | 11.800195|
+|4st prediction is :Roundabout mandatory - with percentage of | 7.8315473|
+|5st prediction is :Beware of ice/snow - with percentage of | 2.8452482|
 
