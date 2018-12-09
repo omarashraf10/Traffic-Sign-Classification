@@ -182,47 +182,62 @@ same thing happend in the fourth image .
 For the first image, the model is relatively sure that this is a Speed limit (70km/h) (probability of 19.948889 %), and that wa a correct prediction .
 
 Top 5 Softmax Probabilities For The Image Are :
-1st prediction is :Speed limit (70km/h) - with percentage of :19.948889
-2st prediction is :Speed limit (20km/h) - with percentage of :14.698641
-3st prediction is :Speed limit (30km/h) - with percentage of :12.441849
-4st prediction is :Road work - with percentage of :2.061665
-5st prediction is :Speed limit (50km/h) - with percentage of :2.023311
+
+| Prediction			        |     Percentage	        					| 
+|:---------------------:|:---------------------------------------------:| 
+|1st prediction is :Speed limit (70km/h) - with percentage of |19.948889|
+|2st prediction is :Speed limit (20km/h) - with percentage of |14.698641|
+|3st prediction is :Speed limit (30km/h) - with percentage of |12.441849|
+|4st prediction is :Road work - with percentage of |2.061665|
+|5st prediction is :Speed limit (50km/h) - with percentage of |2.023311|
 
 For the second image the model was too close from the correct prediction which is Turn right ahead but it is gave a larger prob to Roundabout mandatory 
 
 Top 5 Softmax Probabilities For The Image Are :
-1st prediction is :Roundabout mandatory - with percentage of :10.209023
-2st prediction is :Turn right ahead - with percentage of :10.048528
-3st prediction is :Ahead only - with percentage of :5.51649
-4st prediction is :Beware of ice/snow - with percentage of :1.9634647
-5st prediction is :Keep left - with percentage of :0.9736037
+
+| Prediction			        |     Percentage	        					| 
+|:---------------------:|:---------------------------------------------:| 
+|1st prediction is :Roundabout mandatory - with percentage of |10.209023|
+|2st prediction is :Turn right ahead - with percentage of |10.048528|
+|3st prediction is :Ahead only - with percentage of |5.51649|
+|4st prediction is :Beware of ice/snow - with percentage of |1.9634647|
+|5st prediction is :Keep left - with percentage of |0.9736037|
 
 For the third image, the model is relatively sure that this is a Stop (probability of 25.375076 %), and that wa a correct prediction .
 
 Top 5 Softmax Probabilities For The Image Are :
-1st prediction is :Stop - with percentage of :25.375076
-2st prediction is :No entry - with percentage of :9.202305
-3st prediction is :No vehicles - with percentage of :2.753407
-4st prediction is :Speed limit (20km/h) - with percentage of :2.1177557
-5st prediction is :Speed limit (30km/h) - with percentage of :0.2108728
+
+| Prediction			        |     Percentage	        					| 
+|:---------------------:|:---------------------------------------------:| 
+|1st prediction is :Stop - with percentage of |25.375076|
+|2st prediction is :No entry - with percentage of |9.202305|
+|3st prediction is :No vehicles - with percentage of |2.753407|
+|4st prediction is :Speed limit (20km/h) - with percentage of |2.1177557|
+|5st prediction is :Speed limit (30km/h) - with percentage of |0.2108728|
 
 For the fourth image the model was too close from the correct prediction which is Speed limit (30km/h) but it is gave a larger prob to Speed limit (20km/h)
 
 Top 5 Softmax Probabilities For The Image Are :
-1st prediction is :Speed limit (20km/h) - with percentage of :13.443307
-2st prediction is :Speed limit (30km/h) - with percentage of :10.351788
-3st prediction is :Speed limit (50km/h) - with percentage of :9.01507
-4st prediction is :Speed limit (100km/h) - with percentage of :5.1375537
-5st prediction is :Speed limit (80km/h) - with percentage of :3.932359
+
+| Prediction			        |     Percentage	        					| 
+|:---------------------:|:---------------------------------------------:| 
+|1st prediction is :Speed limit (20km/h) - with percentage of |13.443307|
+|2st prediction is :Speed limit (30km/h) - with percentage of |10.351788|
+|3st prediction is :Speed limit (50km/h) - with percentage of |9.01507|
+|4st prediction is :Speed limit (100km/h) - with percentage of |5.1375537|
+|5st prediction is :Speed limit (80km/h) - with percentage of |3.932359|
 
 For the fifth image the model predicted the image wrong 
 
 Top 5 Softmax Probabilities For The Image Are :
-1st prediction is :Roundabout mandatory - with percentage of :7.067654
-2st prediction is :Dangerous curve to the right - with percentage of :2.8267586
-3st prediction is :Speed limit (30km/h) - with percentage of :-0.4415643
-4st prediction is :Road work - with percentage of :-1.2951646
-5st prediction is :Wild animals crossing - with percentage of :-1.9384843
+
+| Prediction			        |     Percentage	        					| 
+|:---------------------:|:---------------------------------------------:| 
+|1st prediction is :Roundabout mandatory - with percentage of |7.067654|
+|2st prediction is :Dangerous curve to the right - with percentage of |2.8267586|
+|3st prediction is :Speed limit (30km/h) - with percentage of |-0.4415643|
+|4st prediction is :Road work - with percentage of |-1.2951646|
+|5st prediction is :Wild animals crossing - with percentage of |-1.9384843|
 
 For the sixth image, the model is relatively sure that this is a Stop (probability of 27.895742 %), and that wa a correct prediction .
 
