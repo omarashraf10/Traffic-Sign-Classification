@@ -19,15 +19,7 @@ The goals / steps of this project are the following:
 
 [//]: # (Image References)
 
-[image1]: ./examples/visualization.jpg "Visualization"
-[image2]: ./examples/grayscale.jpg "Grayscaling"
-[image3]: ./examples/random_noise.jpg "Random Noise"
-[image4]: ./test images/test1.png "Traffic Sign 1"
-[image5]: ./test images/test2.png "Traffic Sign 2"
-[image6]: ./test images/test3.png "Traffic Sign 3"
-[image7]: ./test images/test4.png "Traffic Sign 4"
-[image8]: ./test images/test5.png "Traffic Sign 5"
-[image9]: ./test images/test6.png "Traffic Sign 6"
+
 ## Rubric Points
 ### Here I will consider the [rubric points](https://review.udacity.com/#!/rubrics/481/view) individually and describe how I addressed each point in my implementation.  
 
@@ -55,7 +47,7 @@ signs data set:
 
 Here is i visualized 6 random images from the training data set by using matplotlib library
 
-![alt text][image1]
+![1](https://user-images.githubusercontent.com/33129729/49701001-f2420000-fbee-11e8-9443-aab4509e2571.png)
 
 ### Design and Test a Model Architecture
 
@@ -65,13 +57,14 @@ As a first step, I decided to normalize the images by using cv.normalize functio
 
 Here is an example of a traffic sign image before and after normalizing.
 
-![before][image2]
+before
+
+![2](https://user-images.githubusercontent.com/33129729/49701013-20bfdb00-fbef-11e8-8559-f90f990e6ee6.png)
 
 
+after
 
-![after][image3]
-
-
+![3](https://user-images.githubusercontent.com/33129729/49701019-2e756080-fbef-11e8-8355-3a092d05cb20.png)
 
 
 #### 2. Describe what your final model architecture looks like including model type, layers, layer sizes, connectivity, etc.) Consider including a diagram and/or table describing the final model.
@@ -148,8 +141,18 @@ images that never see before.
 
 Here are six German traffic signs that I found on the web:
 
-![alt text][image4] ![alt text][image5] ![alt text][image6] 
-![alt text][image7] ![alt text][image8] ![alt text][image9]
+![test1](https://user-images.githubusercontent.com/33129729/49701030-506ee300-fbef-11e8-9df5-46c2b6cce43c.jpg)
+
+![test2](https://user-images.githubusercontent.com/33129729/49701033-582e8780-fbef-11e8-9250-53af78d849d5.jpg)
+
+![test3](https://user-images.githubusercontent.com/33129729/49701036-5d8bd200-fbef-11e8-9f0e-000adbced6b9.jpg)
+
+![test4](https://user-images.githubusercontent.com/33129729/49701042-6381b300-fbef-11e8-8426-71d083811af7.jpg)
+
+![test5](https://user-images.githubusercontent.com/33129729/49701044-6b415780-fbef-11e8-8006-f701327dba40.jpg)
+
+![test6](https://user-images.githubusercontent.com/33129729/49701045-709ea200-fbef-11e8-9946-9c252d42659d.jpg)
+
 
 The fourth image might be difficult to classify because the model can see the number 20 or 30 
 
