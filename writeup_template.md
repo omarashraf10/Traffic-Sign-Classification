@@ -228,6 +228,8 @@ For the sixth image, the model is relatively sure that this is a Stop (probabili
 
 Top 5 Softmax Probabilities For The Image Are :
 
+| Prediction			        |     Percentage	        					| 
+|:---------------------:|:---------------------------------------------:| 
 | 1st prediction is :Go straight or right - with percentage of | 27.895742 |
 |2st prediction is :Ahead only - with percentage of | 16.477861 |
 |3st prediction is :Keep right - with percentage of | 11.800195|
